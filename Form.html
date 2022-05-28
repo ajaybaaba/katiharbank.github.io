@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+
+<head>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+
+		}
+	</style>
+	<script type="text/javascript">
+		function checkEmail(theForm) {
+			if (document.getElementById('email1').value != document.getElementById('email2').value) {
+				alert('Those emails don\'t match!');
+				return false;
+			}
+			else {
+				return true;
+			}
+		}
+	</script>
+
+</head>
+
+<body>
+	<form action="regform.php" method="post">
+
+		<fieldset>
+			<legend><b>
+					<font color="red" size="6">Registration</font>
+				</b></legend><br>
+			<marquee>
+				<font color="#E7E500" size="5"><b><u>WELCOME TO BANK OF KATIHAR</u></b></font>
+			</marquee>
+			<pre>	    <font color="lime" size="5"><u><b>Personal Details</b></u>:-</font></pre>
+			<center>
+				<table border="0" width="60%" height="250pxs">
+					<tr>
+						<td>Name</td>
+						<td><input type="text" name="name"></td>
+					</tr>
+
+					<tr>
+						<td>Father's Name</td>
+						<td><input type="text" name="fname"></td>
+					</tr>
+
+
+
+					<tr>
+						<td>Gender</td>
+						<td><input type="radio" name="Gender">male
+							<input type="radio" name="Gender">female
+						</td>
+					</tr>
+					</tr>
+
+					<tr>
+						<td>PHONE*</td>
+						<td></td>
+						<td><input type="text" name="phone"></td>
+						<td></td>
+						<td>BIRTHDATE* <input type="date" name="dob">
+
+
+
+
+					<tr>
+						<td>CITY*</td>
+						<td></td>
+						<td><input type="text" name="city"></td>
+						<td></td>
+						<td>REGITRATION* <input type="date" name="reg"></td>
+					</tr>
+
+					<tr>
+						<td>COUNTRY*</td>
+						<td></td>
+						<td><input type="text" name="country"></td>
+					</tr>
+
+				</table>
+			</center>
+
+			<pre>  <font color="lime" size="5"><u><b>Account Details</b></u>:-</font></pre>
+			<center>
+				<table border="0" width="60%" height="100pxs">
+
+					<tr>
+						<td>EMAIL*</td>
+						<td></td>
+						<td><input type="text" name="email"></td>
+						<td></td>
+						<td>REPEAT EMAIL* <input type="text" name="re-email"></td>
+					</tr>
+
+					<tr>
+						<td>PASSWORD*</td>
+						<td></td>
+						<td><input type="password" name="pass"></td>
+						<td></td>
+						<td>REPEAT PASSWORD* <input type="password" name="re-pass"></td>
+					</tr>
+				</table>
+			</center><br>
+
+			<center>
+				<table border="0" width="20%">
+					<tr>
+						<td>
+							<input type="submit" value="Register>>" onclick="return checkEmail('email1', 'email2');">
+						<td><input type="reset" value="Cancel"></td>
+						<td> <input type="submit" value="Submit"></td>
+						</td>
+					</tr>
+				</table>
+			</center>
+
+			<font color="lime" size="4"><u><b>Terms and Conditions</b></u>:-</font><br><br>
+			<input type="checkbox"> *I accept all the terms and conditions.<br>
+			<input type="checkbox"> *I want to recieve personalized information by your site.<br>
+			<input type="checkbox"> *Allow partners to send me personalized offers and related services.
+		</fieldset>
+	</form>
+</body>
+
+</html>

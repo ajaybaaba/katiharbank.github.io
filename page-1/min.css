@@ -1,0 +1,44 @@
+body{margin: 0;
+	padding: 0;
+background: url("down.jpg") no-repeat; background-size: cover;
+}
+.about{ 
+	text-align: center;
+	color: white;
+	font-family: verdana bold;
+	margin-top: 100px;
+	
+}
+.about p{
+	font-size: 40px;
+	border-bottom: 2px solid red;
+	
+}
+.text{
+
+	border-bottom: 1px solid white;
+}
+.text h1{ font-size: 20px;
+      color: aliceblue;
+	margin-left: 40px;
+}
+.text a{
+	text-decoration: none;
+	font-family: verdana;
+	color: white;
+	margin-left: 40px;
+}
+.text a:hover{color: red;}
+.text-1{
+    margin-top: 15px;
+	border-bottom: 1px solid white;
+	
+}
+.text-1 a{
+	text-decoration: none;
+	font-family: verdana;
+	color: white;
+	margin-left: 40px;
+	line-height: 30px
+	;
+}

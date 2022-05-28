@@ -1,0 +1,363 @@
+body{margin: 0; padding: 0; background: #ff0000;}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.slider
+{
+    margin:0; padding:0;
+}
+.slider img{width:100%; height:auto; display:block;}
+.nev{overflow:hidden; padding:1px 0; background:#b30000; float:right;}
+.top-bar{ width: 100%; padding:1px 0; background:#069; position: fixed; z-index:1000000;}
+
+.cb{clear:both !important;}
+.top-content{margin:0 auto; width:1170px; font:normal 13px "Segoe UI"; color:#fff;}
+
+.navright{float:right; }
+
+.user-info{margin:0px 30px; padding: 0; float: right;}
+.user-info .fa {margin-right:10px; display:inline-block;}
+.sbox{width:120px; outline: none; border: solid 1px #ff0000; color:#fff; margin-right:5px; padding-left:5px;}
+.user-info ul{list-style:none;}
+
+.user-info ul li{list-style-type: none; float:left; margin:0 5px ;padding: 0px 5px;
+}
+.user-info ul li a{
+    font-family: verdana;
+    text-decoration: none;
+    color: white;
+}
+.user-info ul li a:hover{ color: #2AFF00;}
+
+
+
+.main-nev ul{
+    list-style: none;
+    
+}
+.main-nev{
+    margin: 20px;
+    height: 50px;
+    
+    
+}
+.main-nev ul li{
+    background-color: red;
+    border: 1px solid white;
+    width: 120px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    float: right;
+    position: relative;
+}
+.main-nev ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    
+}
+.main-nev ul li a:hover{
+    background-color: green;
+    
+}
+.main-nev ul ul{
+    position: absolute;
+    display: none;
+}
+.main-nev ul li:hover > ul{
+    display: block;
+}
+.logo img
+{
+    margin-top: 24px;
+    margin-left: 40px;
+    float: left;
+  
+    width: 150px;
+    height: 69px;
+}
+.logo img:hover{ background:#F00;}
+
+
+
+
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	}
+.footer-main-div{
+	    width:100%;
+		height:auto;
+		margin:auto;
+		padding:20px 0px;
+		background-color:#3C3C91;
+	}
+.footer-social-icons{
+    width:100% 
+   
+}
+.footer-social-icons ul{
+    margin:0px;
+    padding:0px;
+    text-align:center;
+}
+.footer-social-icons ul li{
+    display: inline-block;
+ width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    border-radius: 100%;
+    background-color: green;
+    
+    
+}	
+
+.footer-social-icons ul li a{
+    color: white;
+    font-size: 25px;
+    
+    
+}
+.footer-social-icons ul li a i{
+line-height: 50px;
+text-decoration: none;
+}
+.footer-social-icons ul li:hover{
+    background: red;
+    transition: 0.8s;
+    
+}
+
+
+.footer-one{
+	    width:100%;
+		height:auto;
+		margin:auto;
+		padding:10px 0px;
+		background-color:#3C3C91;
+	}
+
+.footer-one ul{
+    margin:0px;
+    padding:0px;
+    text-align:center;
+}
+.footer-one ul li{
+    display: inline-block;
+    margin:0px 20px;
+  
+}	
+.footer-one ul li a{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+   font-family: verdana;
+    
+}
+.footer-one ul li a {
+line-height: 50px;
+text-decoration: none;
+    letter-spacing: 1px;
+}
+.footer-one ul li a:hover{ color:red}
+
+
+
+.footer-two{
+	    width:100%;
+		height:auto;
+		margin:auto;
+		padding:5px 0px;
+
+	}
+
+.footer-two ul{
+    margin:0px;
+    padding:0px;
+    text-align:center;
+}
+.footer-two ul li{
+    display: inline-block;
+    margin:0px 5px;
+  
+}	
+.footer-two ul li a{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+   font-family: verdana;
+   
+    
+}
+.footer-two ul li a {
+line-height: 30px;
+text-decoration: none;
+   
+}
+.footer-two ul li a:hover{ color:red}
+
+
+.footer-bottom{
+	    width:100%;
+		height:auto;
+		margin:0;
+		padding: 5px;
+		background-color:#124;
+    
+	}
+.footer-bottom p {
+        font-family: sans-serif;
+    font-size: 15px;
+    text-align: right;
+    color:yellow;
+ font-weight: 600;
+    letter-spacing: 1px;
+}
+.footer-bottom p a{
+    text-decoration: none;
+    color: aliceblue;
+   
+}
+.footer-bottom p a:hover{color: red;}
+.footer-two ul li i{margin-right: 5px; color: aliceblue;font-size: 20px;}
+.footer-one ul li i{margin-right: 10px; color: aliceblue;font-size: 20px;}
+
+
+.mid-part{
+    width: auto;
+    height:auto;
+   background-color: yellow
+    
+}
+.midle{
+   width: 100%;
+    height: auto;
+    background-color: blue;
+    margin-left: 0px;
+    overflow: hidden;
+    padding: 50px 0;
+
+}
+.b-1{width: 1366px;height: 50px; float: right;margin-right: 5px; margin:5px 29px}
+.b-1 P{text-align-last: center;color: white;font-family: verdana bold; font-size: 40px;line-height: 40px}
+
+.b-2{width: 340px;height: 270px;background:url("../images/education-loan.jpg")0 0 no-repeat;background-size: cover;  float: right;margin-right:  21px;border: 2px solid white;  text-align: center;}
+.b-2:hover{background: url("../images/secure1.jpg") no-repeat; background-size:cover; transform:scale(1.2);}
+.b-3{width: 340px;height: 270px;background:url("../images/carloan.jpg")0 0 no-repeat;  background-size:cover;float: right;margin-right: 5px; border: 2px solid white; text-align: center;}
+.b-4{width: 340px;height: 270px; background:url("../images/home-loan.jpg")0 0 no-repeat; background-size:cover;float: right;margin-right: 5px; border: 2px solid white; text-align: center;}
+.b-5{width: 340px;height: 270px; background:url("../images/internet2.jpg")0 0 no-repeat; background-size:cover; float: right; margin-right: 5px; border: 2px solid white; text-align: center;}
+
+
+.b-6{width: 340px;height: 270px; background:url("../images/opening1.jpg")0 0 no-repeat; background-size:cover;float: right;margin-right:  21px;border: 2px solid white; text-align: center;}
+.b-7{width: 340px;height: 270px;background:url("../images/online1.jpg")0 0 no-repeat; background-size:cover;float: right;margin-right: 5px; border: 2px solid white; text-align: center;}
+.b-8{width: 340px;height: 270px;background:url("../images/secure1.jpg")0 0 no-repeat;background-size:cover;float: right;margin-right: 5px; border: 2px solid white; text-align: center;}
+.b-9{width: 340px;height: 270px;background:url("../images/mobile1.jpg")0 0 no-repeat; background-size:cover; float: right; margin-right: 5px; border: 2px solid white; text-align: center;}
+.td {}
+.td a{text-decoration: none; font-size: 30px;font-family:Verdana, Geneva, sans-serif;line-height: 270px; color: red; border-bottom:2px solid red; }
+.td a:hover{color: green}
+
+
+
+
+
+.mid1-outer{margin:0; padding:0px 0 20px 0; background:#400114; overflow:hidden;}
+.mid1-inner{width:1170px; margin:0 auto; overflow:hidden;}
+.mid1-left{float:left; width:66%; padding:0 0;  margin-right: 10px}
+.mid1-left h2{text-align:center; margin:0 2px; padding:10px 0; font:normal 20px Verdana, Geneva, sans-serif; text-transform:uppercase;color: white;
+}
+
+.w-100{width:100% !important;}
+.box2{margin: 5px 10px; padding:0; width:30%; float:left;background-color: red }
+.box2 img{width:100%; height:auto; display:block; margin-top:10px;}
+.box2 img:hover{ transform: scaleX(1.1)}
+.box2 p{text-align: center;color: white;line-height:30px}
+.box2 p:hover{transform: scaleX(1.3) }
+.mid1-right{float:left; width:30%;}
+
+.mid1-right h2{text-align:center; margin:0; padding:10px 0; font:normal 20px Verdana, Geneva, sans-serif; background:#06F;color: white}
+.mid1-right ul{list-style:none; margin-top:15px; height: 172px; color: white;}
+.mid1-right ul li{margin:0; padding:0 0 3px 0; font:normal 12px Verdana, Geneva, sans-serif;}
+.news-area{width:33%; float:left;}
+.mr15{margin-right:15px; box-sizing:border-box}
+.recent-news{ }
+/*contact.css*/
+.contact-bg{background: url("../page-1/down.jpg")0 0 no-repeat; background-size: cover; padding: 50px 0}
+.contact2{ 
+	text-align: center;
+	color: #000000;
+	font-family: verdana bold;
+	margin-top:0;
+	
+	
+	    padding-top: 143px;
+	
+}
+.contact-all{margin:0 auto; width:600px;  background: #aaa4;}
+.contact2 p{
+	font-size: 40px;
+	border-bottom: 1px solid #aaa;
+	color: aliceblue;
+}
+.text{
+
+	border-bottom: 1px solid white;
+}
+.text h1{ font-size: 20px;
+      color: aliceblue;
+	margin-left: 40px;
+}
+.text a{
+	text-decoration: none;
+	font-family: verdana;
+	color: white;
+	margin-left: 40px;
+}
+.text a:hover{color: red;}
+.text-1{
+    margin-top: 15px;
+	border-bottom: 1px solid white;
+	
+}
+.text-1 a{
+	text-decoration: none;
+	font-family: verdana;
+	color: white;
+	margin-left: 40px;
+	line-height: 30px
+	;
+}
+
+
+
+.mid1e-outer{margin:0; padding:6px 0 29px 0; background:#168 ; overflow:hidden;}
+.mid1e-inner{width:1366px; margin:0 auto; overflow:hidden;}
+.mid1e-left{float:none; width:100%; padding:0 0;  margin-right: 10px}
+.mid1e-left h2 {text-align:center; margin:0 2px; padding:10px 0; font:normal 25px Verdana, Geneva, sans-serif; text-transform:uppercase;color: white;
+}
+.w-100{width:100% !important;}
+.box5{margin: 5px 10px; padding:0; width:23%; height:40%; float:right;background-image:url("../images/education-loan.jpg") ;background-size: cover;}
+.box6{margin: 5px 10px; padding:0; width:23%; height:40%; float:right;background-image:url("../images/carloan.jpg") ;background-size: cover;}
+.box7{margin: 5px 10px; padding:0; width:23%; height:40%; float:right;background-image:url("../images/home-loan.jpg") ;background-size: cover; }
+
+.box8{margin: 5px 10px; padding:0; width:23%; height:40%; float:right;background-image:url("../images/internet2.jpg") ;background-size: cover;}
+.box9{margin: 5px 10px; padding:0; width:23%; height:40%; float:right;background-image:url("../images/opening1.jpg") ;background-size: cover;}
+.box10{margin: 5px 10px; padding:0; width:23%; height:40%; float:right;background-image:url("../images/online1.jpg") ;background-size: cover; }
+.box11{margin: 5px 10px; padding:0; width:23%; height:40%; float:right;background-image:url("../images/secure1.jpg") ;background-size: cover; }
+.box12{margin: 5px 10px; padding:0; width:23%; height:40%; float:right;background-image:url("../images/mobile1.jpg") ;background-size: cover; }
+.tet a{text-decoration: none; font-family:verdana bold; font-size: 30px; color: red; line-height: 300px;margin-left: 65px;border-bottom: 2px solid white;}
+.tet a:hover{color: green;}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+     height: 650px;
+}
+
+
+
+
+
+    
